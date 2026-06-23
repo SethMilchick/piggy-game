@@ -52,7 +52,7 @@ const init = function () {
   current1El.textContent = 0;
 
   diceEl.classList.add('hidden');
-  diceEl.src = dice1;
+  diceEl.src = diceImages[0];
 
   player0El.classList.remove('player--winner');
   player1El.classList.remove('player--winner');
